@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de Confidentialité — AutoLog</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 24px; color: #1a1a1a; line-height: 1.7; }
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+  h2 { font-size: 18px; font-weight: 700; margin-top: 36px; margin-bottom: 10px; color: #2563eb; }
+  .meta { color: #6b7280; font-size: 14px; margin-bottom: 40px; }
+  p { margin-bottom: 14px; }
+  ul { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  a { color: #2563eb; }
+  .section { margin-bottom: 32px; }
+  .highlight { background: #f0f6ff; border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 20px 0; }
+  hr { border: none; border-top: 1px solid #e5e7eb; margin: 40px 0; }
+  footer { font-size: 13px; color: #9ca3af; text-align: center; margin-top: 60px; }
+</style>
+</head>
+<body>
+
+<h1>Politique de Confidentialité</h1>
+<p class="meta">Application AutoLog — Dernière mise à jour : mars 2026</p>
+
+<div class="highlight">
+  AutoLog est une application de carnet de bord automobile. Nous nous engageons à protéger vos données personnelles et à respecter le Règlement Général sur la Protection des Données (RGPD).
+</div>
+
+<div class="section">
+  <h2>1. Responsable du traitement</h2>
+  <p>Le responsable du traitement des données est :</p>
+  <p><strong>Samuel BENZAKOUR (samubenza)</strong><br>
+  Développeur indépendant<br>
+  Email : <a href="mailto:samubenza@gmail.com">samubenza@gmail.com</a></p>
+</div>
+
+<div class="section">
+  <h2>2. Données collectées</h2>
+  <p>AutoLog collecte uniquement les données nécessaires au bon fonctionnement de l'application :</p>
+  <ul>
+    <li><strong>Données de compte</strong> : adresse email, prénom — lors de la création d'un compte (optionnel)</li>
+    <li><strong>Données véhicule</strong> : marque, modèle, motorisation, plaque d'immatriculation, kilométrage, date de mise en circulation — saisies manuellement par l'utilisateur</li>
+    <li><strong>Journal d'entretien</strong> : entrées de maintenance, dates, coûts, kilométrages — saisies manuellement par l'utilisateur</li>
+    <li><strong>Localisation GPS</strong> : position géographique approximative — uniquement lors de la recherche de garages ou stations-service à proximité, sur demande explicite de l'utilisateur</li>
+  </ul>
+  <p>AutoLog ne collecte pas de données comportementales, ne suit pas vos déplacements, et ne partage aucune donnée avec des tiers à des fins publicitaires.</p>
+</div>
+
+<div class="section">
+  <h2>3. Finalités du traitement</h2>
+  <p>Vos données sont utilisées exclusivement pour :</p>
+  <ul>
+    <li>Fournir les fonctionnalités de l'application (suivi d'entretien, alertes, statistiques)</li>
+    <li>Synchroniser vos données entre vos appareils via votre compte (si connecté)</li>
+    <li>Rechercher des garages et stations-service à proximité (localisation GPS)</li>
+    <li>Améliorer les recommandations de maintenance personnalisées</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>4. Base légale du traitement</h2>
+  <ul>
+    <li><strong>Exécution du contrat</strong> : traitement nécessaire pour fournir les fonctionnalités de l'app</li>
+    <li><strong>Consentement</strong> : pour la localisation GPS (demandée à chaque utilisation)</li>
+    <li><strong>Intérêt légitime</strong> : amélioration de l'expérience utilisateur</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>5. Stockage et sécurité</h2>
+  <p>Vos données sont stockées de deux façons :</p>
+  <ul>
+    <li><strong>Localement</strong> sur votre appareil (sans compte), via le stockage interne de l'application</li>
+    <li><strong>Dans le cloud</strong> (avec compte), via Supabase — serveurs hébergés en Europe de l'Ouest (West EU), conformes au RGPD</li>
+  </ul>
+  <p>Les données de compte sont protégées par authentification sécurisée. Les mots de passe sont chiffrés et ne sont jamais stockés en clair.</p>
+</div>
+
+<div class="section">
+  <h2>6. Durée de conservation</h2>
+  <ul>
+    <li><strong>Données locales</strong> : conservées jusqu'à désinstallation de l'application ou suppression manuelle</li>
+    <li><strong>Données cloud</strong> : conservées jusqu'à la suppression du compte par l'utilisateur</li>
+    <li><strong>Données de localisation</strong> : non conservées — utilisées uniquement en temps réel, non enregistrées</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>7. Partage des données</h2>
+  <p>AutoLog ne vend et ne partage jamais vos données personnelles avec des tiers à des fins commerciales.</p>
+  <p>Les seuls sous-traitants utilisés sont :</p>
+  <ul>
+    <li><strong>Supabase Inc.</strong> (infrastructure cloud) — stockage des données de compte et de véhicule, serveurs EU</li>
+    <li><strong>Nominatim / OpenStreetMap</strong> — géocodage des villes (recherche textuelle uniquement, sans données personnelles)</li>
+    <li><strong>API gouvernementale des prix carburants</strong> (data.economie.gouv.fr) — prix des carburants en temps réel</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>8. Vos droits</h2>
+  <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+  <ul>
+    <li><strong>Droit d'accès</strong> : consulter les données que nous détenons sur vous</li>
+    <li><strong>Droit de rectification</strong> : corriger des données inexactes</li>
+    <li><strong>Droit à l'effacement</strong> : supprimer votre compte et toutes vos données</li>
+    <li><strong>Droit à la portabilité</strong> : exporter vos données (format CSV disponible dans l'app)</li>
+    <li><strong>Droit d'opposition</strong> : vous opposer à certains traitements</li>
+  </ul>
+  <p>Pour exercer ces droits, contactez-nous à : <a href="mailto:samubenza@gmail.com">samubenza@gmail.com</a></p>
+  <p>Vous pouvez également supprimer votre compte et toutes vos données directement depuis l'application, dans la section Compte.</p>
+</div>
+
+<div class="section">
+  <h2>9. Localisation GPS</h2>
+  <p>AutoLog utilise votre position GPS uniquement lorsque vous activez explicitement la recherche de garages ou de stations-service à proximité. Cette permission est demandée au moment de l'utilisation.</p>
+  <p>Votre position n'est jamais stockée, ni utilisée en arrière-plan, ni partagée avec des tiers.</p>
+</div>
+
+<div class="section">
+  <h2>10. Enfants</h2>
+  <p>AutoLog n'est pas destiné aux enfants de moins de 13 ans. Nous ne collectons pas sciemment de données personnelles concernant des enfants.</p>
+</div>
+
+<div class="section">
+  <h2>11. Modifications</h2>
+  <p>Nous pouvons mettre à jour cette politique de confidentialité. En cas de modification substantielle, vous en serez informé via une notification dans l'application. La date de dernière mise à jour est indiquée en haut de ce document.</p>
+</div>
+
+<div class="section">
+  <h2>12. Contact et réclamations</h2>
+  <p>Pour toute question relative à cette politique ou à vos données personnelles :</p>
+  <p><strong>Email :</strong> <a href="/cdn-cgi/l/email-protection#afdccec2dacdcac1d5ceefc8c2cec6c381ccc0c2"><span class="__cf_email__" data-cfemail="6d1e0c00180f0803170c2d0a000c0401430e0200">[email&#
