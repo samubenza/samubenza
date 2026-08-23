@@ -4,9 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "veille-agent"
-version = "0.1.0"
-description = "Agent de Veille Web Autonome — noyau logique (Lot 1, jalon J1)"
+version = "0.2.0"
+description = "Agent de Veille Web Autonome — noyau logique + collecteur (Lot 1, jalons J1-J2)"
 requires-python = ">=3.10"
+dependencies = [
+    "feedparser>=6.0",
+    "beautifulsoup4>=4.12",
+    "requests>=2.31",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

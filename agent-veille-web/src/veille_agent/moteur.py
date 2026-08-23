@@ -87,6 +87,12 @@ class Orchestrateur:
             )
         )
 
+    def journaliser(self, veille_id: str, type_: str, detail: str, horodatage: datetime) -> None:
+        """F11.6 — point d'entrée public pour qu'un appelant externe (ex. le
+        pipeline de collecte, M4→M5→M6) ajoute une entrée au journal d'audit
+        sans avoir à connaître les détails internes de l'orchestrateur."""
+        self._log(veille_id, type_, detail, horodatage)
+
     # ------------------------------------------------------------------
     # RG-01 / RG-02 — détection d'une Occurrence
     # ------------------------------------------------------------------

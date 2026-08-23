@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille Tech — actualités</title>
+    <link>https://actu-tech.example/</link>
+    <description>Flux d'actualité technique de test</description>
+    <item>
+      <title>Un nouveau langage de programmation annoncé</title>
+      <link>https://actu-tech.example/articles/nouveau-langage-annonce</link>
+      <pubDate>Sun, 23 Aug 2026 08:00:00 GMT</pubDate>
+      <guid>https://actu-tech.example/articles/nouveau-langage-annonce</guid>
+      <description>Un consortium annonce un nouveau langage compilé.</description>
+    </item>
+    <item>
+      <!-- Date volontairement absente : sert à tester le repli F5.4
+           (date de première détection retenue, incertitude signalée). -->
+      <title>Faille de sécurité corrigée dans un outil très utilisé</title>
+      <link>https://actu-tech.example/articles/faille-corrigee</link>
+      <guid>https://actu-tech.example/articles/faille-corrigee</guid>
+      <description>Un correctif urgent a été publié la nuit dernière.</description>
+    </item>
+    <item>
+      <title>Résultats financiers trimestriels d'un éditeur de logiciels</title>
+      <link>https://actu-tech.example/articles/resultats-trimestriels</link>
+      <pubDate>Sat, 22 Aug 2026 18:00:00 GMT</pubDate>
+      <guid>https://actu-tech.example/articles/resultats-trimestriels</guid>
+      <description>Le chiffre d'affaires est en hausse de 12 %.</description>
+    </item>
+  </channel>
+</rss>
